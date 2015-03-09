@@ -1,0 +1,15 @@
+include ./mixins
+
+doctype html
+html
+	head
+		block title
+			title Temp Title
+		link(rel="stylesheet" href="./main.css")
+	body
+		block content 
+			include ./content.jade
+		block sidebar
+			div(class="sidebar")
+				mixin month(jan)
+				mixin month(feb)

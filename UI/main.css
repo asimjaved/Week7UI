@@ -1,0 +1,16 @@
+.sidebar {
+	float: left;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+}
+.blogpost {
+	float: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+}

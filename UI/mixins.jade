@@ -1,0 +1,7 @@
+mixin month(month)
+	div(class="month")
+		h2 #{month[0].date}
+		ul
+			each blogpost in month
+				a(href=blogpost.title)
+					li #{blogpost.title}
