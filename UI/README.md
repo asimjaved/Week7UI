@@ -17,6 +17,7 @@ Jade files have the extension .jade
 #### Whitespace Sensitivity
 Jade is whitespace sensitive - what does that mean????
 
+```
 It
 	Means
 		You
@@ -34,7 +35,7 @@ It
 		Want
 	Through
 Spacing
-
+```
 
 #### Writing Jade
 Basic ways of writing in Jade (sans-logic):
